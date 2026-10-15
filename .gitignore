@@ -1,0 +1,16 @@
+# .gitignore: Lista lo que GIT no debe subir al repositorio.
+# cada linea es un arcjivo o carpeta a ignorar
+
+# paqyuetes descargados por npm: pesan mucho y se recrean con el comando "npm install".
+node_modules
+
+# Resultado de "npm run build" del fronted: este se puede volver a generar.
+dist
+
+# Las fotos subidas por los usuarios no se cragan o se ignoren.
+# El asterisco (*) signnifica #todo lo que haya dentro de uploads se va a ignorar".
+backend/uploads/*
+
+# Excepcion: el siglo ! significa " Esta linea SI se sube".
+# Git no guarda carpteas vacias, solo archivos. Por eso dejamos dentro de la carpeta un archivo llamado .gitkeep (su unico trabajo es mantener la carpeta).
+|backend/uploads/.gitkeep
