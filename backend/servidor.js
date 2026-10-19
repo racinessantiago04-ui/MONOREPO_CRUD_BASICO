@@ -1,7 +1,7 @@
 // Responsabilidad: Encender el servidor y conectar las piezas (CORS, JSON, imagenes y rutas).
 import express from "express";
 import cors from "cors";
-import rutasArticulos from "./rutasArticulos"
+import rutasArticulos from "./rutasArticulos.js"
 import {CARPETA_IMAGENES} from "./subirImagen.js"
 
 const aplicacion = express()

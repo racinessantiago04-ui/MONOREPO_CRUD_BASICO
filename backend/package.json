@@ -1,16 +1,11 @@
 {
-  "name": "backend",
+  "name": "tienda-backend",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [
-    "backend"
-  ],
-  "license": "ISC",
-  "author": "Racines y Manzano",
+  "private": true,
   "type": "module",
-  "main": "servidor.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node servidor.js",
+    "dev": "nodemon servidor.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
